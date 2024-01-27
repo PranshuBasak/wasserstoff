@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap&family=Archivo:wght@400&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -18,4 +18,80 @@
 
 p{
   margin: 0 !important;
+}
+
+
+#salesfigure {
+  display: none;
+}
+
+.bottom-chart {
+  background-color: white;
+  height: 4em;
+  border-radius: 10px;
+  cursor: pointer;
+  filter: drop-shadow(25px 18px 12px rgba(58, 58, 58, 0.16));
+}
+
+.bottom-chart .heading {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.4399999976158142px;
+  text-align: left;
+  
+}
+
+.bottom-chart .salevalue {
+  font-family: Poppins;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: left;
+  
+}
+
+.bottom-bar-chart {
+  width: 90%;
+  overflow-x: scroll;
+  margin: 0.3em auto;
+}
+
+.bottom-bar-chart::-webkit-scrollbar {
+  display: none;
+}
+
+
+.custom-gap{
+  gap:3px;
+}
+
+.barchart{
+  margin-top: 13px;
+  width: 95%;
+}
+
+.light-bars{
+  background-color: #DCDDF1;
+}
+.pink-bars{
+  background-color: #FB7192;
+}
+
+.bars{
+  width: 5vw;
+}
+
+.bar-bottom-hr{
+  /* background-color: black; */
+  background-image: linear-gradient(to right, #F5A951 20%, #EF788F 20% ,#EF788F 45%, #8779EB 45%);
+  border: none;
+  margin-top: 2.7px;
+  height: 0.5em;
+  opacity: 1;
+
+  width: 95%;
+  /* margin: 12 auto; */
 }

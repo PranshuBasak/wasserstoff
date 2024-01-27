@@ -12,14 +12,14 @@ const Navbar = () => {
     }, []);
 
     return (
-        <div className="flex justify-between items-center  bg-white sticky top-0 space-x-4 w-screen">
+        <div className="flex justify-between items-center  bg-white sticky top-0 space-x-4 z-10">
             <div className='flex justify-between items-center md:mx-2 flex-none'>
                 <img className='w-10 md:ml-9 shadow-md rounded-2xl' src={'https://www.thewasserstoff.com/images/logo-top.png'} alt=''></img>
                 <p className='inline mx-1 text-sm relative top-0.5 text-black font-medium '>WASSERSTOFF</p>
             </div>
 
             <div className='flex justify-end items-center bg-gray-200 m-2 rounded grow max-w-80'>
-                <input type="text" className="w-fit bg-transparent border-none grow" />
+                <input type="text" className="w-fit bg-transparent border-none grow caret-blue-500" />
                 <CiSearch className="mx-2" size={15} />
             </div>
 
@@ -29,8 +29,7 @@ const Navbar = () => {
                 <Link to='/' onClick={() => setActive('/')} className={`mx-3 p-4 ${active === '/' ? 'text-black   border-b-4 border-[#5756B3]' : 'text-gray-500'}`}>Dashboard</Link>
                 <Link className='mx-3 text-gray-500'>Analytics</Link>
             </div>
-            <span className='hidden md:flex px-3 text-[#A1A3D4]'><FiUser size={22} /></span>
-            <div className="flex items-center md:hidden">
+            <div className="flex items-center">
                 <span className='mx-3 text-[#A1A3D4]'><FiUser size={22} /></span>
                 <span className='text-[#A1A3D4]'><IoOptionsOutline size={22} /></span>
             </div>

@@ -1,16 +1,17 @@
-import OverHero from "../components/OverHero"
-import OverSidebar from "../components/OverSidebar"
+import OverviewChart from "../components/OverviewChart"
+import OverviewInfo from "../components/OverviewInfo"
+import OverviewMap from "../components/OverviewMap"
 
 
 const Overview = () => {
   return (
     <div>
-      <div className="flex-row md:flex">
-        <OverSidebar />
-        <OverHero />
+      <div className="flex-row md:flex ">
+        <OverviewInfo />
+        <OverviewMap />
       </div>
-      {/* It is for rendering bottom barGraph on Main page */}
-      {/* <OverviewBottom /> */}
+      
+      <OverviewChart />
       <br />
     </div>
   )
