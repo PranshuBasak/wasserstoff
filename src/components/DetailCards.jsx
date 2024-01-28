@@ -6,8 +6,6 @@ const DetailCards = ({icon, heading, number}) => {
         <div className='bottom-icon'> {icon}</div>
         <span> {heading}</span>
         <h1>{number}</h1> 
-        {/* <p><small><b> {heading} </b></small></p>
-        <h1>{number}</h1>  */}
 
 
     </div>
