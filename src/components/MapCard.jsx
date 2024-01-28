@@ -3,7 +3,7 @@ import { MdArrowDropDown } from "react-icons/md";
 const MapCard = ({icon, heading, number, cls, iconBgColorCls}) => {
   return (
     <div className="hidden sm:flex">
-      <div className={`absolute ${cls} `} >
+      <div className={`absolute ${cls} cursor-pointer`} >
         <div className=" flex flex-col  ">
           <div className=" rounded-2xl bg-white overflow-hidden flex flex-row py-1.5 shadow-2xl px-2.5 items-center justify-start gap-[12px] hover:scale-125 ">
             <div className={`p-2 text-2xl ${iconBgColorCls} text-white rounded-md shadow-sm `}>

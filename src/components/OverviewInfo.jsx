@@ -7,6 +7,8 @@ import Card from './Card';
 import Loader from './Loader';
 
 const OverviewInfo = () => {
+
+  
   const active_users_chart = (
     <CircularProgressbar
       className='w-20'
@@ -47,7 +49,7 @@ const OverviewInfo = () => {
           DETAIL&nbsp;
           <FaGreaterThan className="relative inline  w-2" />
         </p>
-        <h1 className='text-4xl text-[#3F3C73] font-medium mb-10'>2,431,340</h1>
+        <h1 className='text-5xl text-[#3F3C73] font-medium mb-10'>2,431,340</h1>
       </div>
 
       <div className='flex flex-col my-3'>

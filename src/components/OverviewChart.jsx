@@ -13,15 +13,13 @@ const OverviewChart = () => {
 
 
   const SalesFigureToggle = () => {
-    const salesfigure = document.getElementById('salesfigure').style
-    if (salesfigure.display === "block")
-      salesfigure.display = "none"
-    else
-      salesfigure.display = "block"
-  }  
+    const salesfigure = document.getElementById('salesfigure').style;
+    salesfigure.display = salesfigure.display === "block" ? "none" : "block";
+  }
+  
   
   return (
-    <div className='bottom-chart flex my-2 mb-4 ' onClick={SalesFigureToggle}>
+    <div className='bottom-chart flex mb-4 ' onClick={SalesFigureToggle}>
       <div className='mx-3'>
         <p className='heading ms-1 my-2'> Sales Figures</p>
         <p className='salevalue' >$10,430</p>

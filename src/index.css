@@ -95,3 +95,207 @@ p{
   width: 95%;
   /* margin: 12 auto; */
 }
+
+.sidebar {
+  width: 20em;
+}
+
+.dashSideDollar{
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.greenUpsign{
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.4399999976158142px;
+  text-align: center;
+  color: rgba(0, 185, 41, 1);
+
+}
+
+.greenUpsign2{
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.4399999976158142px;
+  text-align: center;
+  color: rgba(56, 242, 97, 1);
+
+}
+
+.sidebar .card1 {
+  width: 80%;
+  background-color: white;
+  border-radius: 10px;
+  filter: drop-shadow(0px 0px 32px rgba(19, 0, 24, 0.1));
+}
+
+.sidebar .card1 .indicator,
+.sidebar .card1 .indicator-2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.sidebar .card1 .circle-heart-icon {
+  position: absolute;
+  top: 35%;
+  left: 38%;
+}
+
+.content2{
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 0.44px;
+  margin-right: 10px;
+  color: #383874;
+}
+
+.card2 {
+  width: 80%;
+  background-color: #8675FF;
+  color: white;
+  border-radius: 10px;
+  filter: drop-shadow(0px 0px 32px rgba(19, 0, 24, 0.2));
+}
+
+.text-muted {
+  color: rgba(56, 56, 116, 0.5) !important;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0.4000000059604645px;
+  text-align: center;
+
+}
+.text-muted2 {
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0.4000000059604645px;
+  text-align: left;
+  color: rgba(255, 255, 255, 0.5);
+  ;
+  ;
+}
+
+.card2 p {
+  font-size: 0.9rem;
+}
+
+.card2 h2 {
+  font-size: 1.9rem;
+}
+
+.card2 hr {
+  color: blue;
+}
+
+.totalEarning{
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+  letter-spacing: 0.4399999976158142px;
+  text-align: left;
+
+}
+
+.earning{
+  font-family: Poppins;
+  font-size: 34px;
+  font-weight: 400;
+  line-height: 44px;
+  letter-spacing: -0.4399999976158142px;
+  text-align: left;
+
+}
+
+.card3 {
+  width: 80%;
+  height: 5em;
+  background-color: white;
+  border-radius: 10px;
+  filter: drop-shadow(0px 0px 32px rgba(19, 0, 24, 0.25));
+}
+.card3 {
+  background-color: #FFFFFF;
+  border-radius: 0.5rem; 
+  box-shadow: 0px 100px 80px rgba(108, 73, 172, 0.07), 
+              0px 41px 33px rgba(108, 73, 172, 0.05),
+              0px 22px 17px rgba(108, 73, 172, 0.04),
+              0px 12px 10px rgba(108, 73, 172, 0.03),
+              0px 6px 5px rgba(108, 73, 172, 0.02),
+              0px 2px 2px rgba(108, 73, 172, 0.01);
+}
+
+.card3 .card3-first-col {
+  width: 6em; 
+}
+
+.card3 p {
+  font-weight: 400;
+  font-size: 0.875rem; 
+  line-height: 1.25rem;
+  letter-spacing: 0.05em; 
+  color: #383874;
+}
+
+.card3 table {
+  border-collapse: collapse;
+  width: 80%; 
+}
+
+.sidebar .container .left .card2 {
+  background: #8676ff;
+  box-shadow: 0px 100px 80px rgba(108, 73, 172, 0.07),
+              0px 41.7776px 33.4221px rgba(108, 73, 172, 0.0503198),
+              0px 22.3363px 17.869px rgba(108, 73, 172, 0.0417275),
+              0px 12.5216px 10.0172px rgba(108, 73, 172, 0.035),
+              0px 6.6501px 5.32008px rgba(108, 73, 172, 0.0282725),
+              0px 2.76726px 2.21381px rgba(108, 73, 172, 0.0196802);
+  border-radius: 10px;
+}
+
+.sidebar .container .left .card2 > div {
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  margin: 15px 25px;
+}
+
+.dashsideEarn{
+font-family: Roboto;
+font-size: 20px;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: 0.4399999976158142px;
+text-align: center;
+
+}
+.dashSideHead{
+  font-family: Poppins;
+  font-size: 34px;
+  font-weight: 400;
+  line-height: 44px;
+  letter-spacing: -0.4399999976158142px;
+  text-align: left;
+}
+.salesfigure {
+  position: fixed !important;
+  bottom: 5em !important;
+  left: 12em !important;
+  height: 27em !important;
+  width: 55.4em !important;
+}
+

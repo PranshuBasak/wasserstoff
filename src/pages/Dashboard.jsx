@@ -3,7 +3,7 @@ import DashSidebar from '../components/DashSidebar'
 
 const Dashboard = () => {
   return (
-    <div className='bg-second flex-row md:flex'>
+    <div className='bg-[#f7f7f7] flex-row md:flex'>
 
         <DashSidebar />
         <DashHero />

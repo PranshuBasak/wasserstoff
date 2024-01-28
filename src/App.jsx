@@ -5,7 +5,7 @@ import { Dashboard, Footer, Navbar, Overview } from "./pages";
 function App() { 
 
   return (
-    <div className="App flex-row">
+    <div className="App flex-row ">
       <BrowserRouter>
 
         {/* public routes */}
